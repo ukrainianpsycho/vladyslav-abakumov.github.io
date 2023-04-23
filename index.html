@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>MyJewellery</title>
+    
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="styles/reset.css">
+    
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Navigation Bar Styles -->
+    <link rel="stylesheet" href="styles/navbar.css">
+
+    <!-- Footer Styles -->
+    <link rel="stylesheet" href="styles/footer.css">
+    
+    <!-- Home Page Styles -->
+    <link rel="stylesheet" href="styles/home-page.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="fixed-top" id="navbar-container">
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+          
+      <!-- Brand Element -->
+      <a class="navbar-brand font-weight-bold ml-2" href="#">MyJewellery</a>
+      
+      <!-- Bootstrap Toggler for Collapsed Navbar -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Bootstrap Collapse Container for Navbar Items -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          
+        <!-- Dropdown Element -->
+        <div class="nav-item dropdown mr-2 mt-2 mt-sm-0">
+          <a class="nav-link dropdown-toggle pr-3 pl-3" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Collections
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="category_rings.html">Bracelets</a>
+            <a class="dropdown-item" href="category_rings.html">Rings</a>
+            <a class="dropdown-item" href="category_rings.html">Pendants</a>
+            <a class="dropdown-item" href="category_rings.html">Statuettes</a>
+          </div>
+        </div>
+
+        <!-- Search Field -->
+        <form class="form-inline mr-2 mt-2 mt-sm-0">
+          <input class="form-control" type="search" placeholder="Search..." aria-label="Search...">
+        </form>
+      
+      </div>
+    
+    </nav>
+  </header>
+
+  
+  <!-- Main Content -->
+  <main>
+
+    <!-- New Product -->
+    <div class="container-fluid p-0 mb-5 d-flex justify-content-center" id="new-product-container">
+      <a class="d-flex justify-content-center" href="product_1.html" id="new-product-link">
+        <img class="img-fluid" src="images/bracelets/other_4_1.png">
+        <span>
+          <span id="new-product-title">New Product</span>
+          <span id="new-product-price"><b>XX.XX</b> EUR</span>
+        </span>
+      </a>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="container-fluid mb-5" id="product-grid">
+
+      <!-- First Row (Bracelets) -->
+      <div class="row mb-4">
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="category_rings.html">
+            <img class="img-fluid p-3 image-product-group" id="new-product-img" src="images/bracelets/dark_1.png">
+            <span>
+              <span class="product-group-left ml-4 mb-4 px-3">Bracelets</span>
+              <span class="product-group-right mr-4 mb-4 px-3">></span>
+            </span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/bracelets/other_4.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/bracelets/silver_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/bracelets/bronze_1.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/bracelets/other_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/bracelets/bronze_3.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        
+      </div>
+
+      <!-- Second Row (Rings) -->
+      <div class="row mb-4">
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="category_rings.html">
+            <img class="img-fluid p-3 image-product-group" id="new-product-img" src="images/rings/dark_1.png">
+            <span>
+              <span class="product-group-left ml-4 mb-4 px-3">Rings</span>
+              <span class="product-group-right mr-4 mb-4 px-3">></span>
+            </span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/rings/silver_1.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/rings/silver_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/rings/bronze_1.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/rings/bronze_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/rings/bronze_3.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        
+      </div>
+
+      <!-- Third Row (Pendants) -->
+      <div class="row mb-4">
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="category_rings.html">
+            <img class="img-fluid p-3 image-product-group" id="new-product-img" src="images/pendants/dark_1.png">
+            <span>
+              <span class="product-group-left ml-4 mb-4 px-3">Pendants</span>
+              <span class="product-group-right mr-4 mb-4 px-3">></span>
+            </span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/pendants/other_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/pendants/silver_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/pendants/bronze_1.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/pendants/other_1.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/pendants/bronze_3.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        
+      </div>
+
+      <!-- Fourth Row (Statuettes) -->
+      <div class="row mb-4">
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="category_rings.html">
+            <img class="img-fluid p-3 image-product-group" id="new-product-img" src="images/statuettes/dark_1.png">
+            <span>
+              <span class="product-group-left ml-4 mb-4 px-3">Statuettes</span>
+              <span class="product-group-right mr-4 mb-4 px-3">></span>
+            </span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/statuettes/silver_1.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/statuettes/bronze_2.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/statuettes/bronze_4.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/statuettes/silver_6.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 p-0">
+          <a href="product_1.html">
+            <img class="img-fluid p-3 image-product" id="new-product-img" src="images/statuettes/bronze_3.png">
+            <span class="product-price mr-4 mb-4"><b>XX.XX</b> EUR</span>
+          </a>
+        </div>
+        
+      </div>
+
+    <!-- About Us Picture -->
+    <div class="container-fluid p-0 d-flex justify-content-center" id="about-us-section">
+      <img class="img-fluid" src="images/other/about-us.png" alt="about-us">
+    </div>
+
+  </main>
+
+  <footer class="nav container-fluid flex-column flex-sm-row py-4 px-2 justify-content-center">
+    <a class="nav-item nav-link mx-2 my-1 my-sm-0 text-center" href="about_us.html">About Us</a>
+    <a class="nav-item nav-link mx-2 my-1 my-sm-0 text-center" href="category_rings.html">Bracelets</a>
+    <a class="nav-item nav-link mx-2 my-1 my-sm-0 text-center" href="category_rings.html">Rings</a>
+    <a class="nav-item nav-link mx-2 my-1 my-sm-0 text-center" href="category_rings.html">Pendants</a>
+    <a class="nav-item nav-link mx-2 my-1 my-sm-0 text-center" href="category_rings.html">Statuettes</a>
+  </footer>
+
+  
+
+  <!-- Bootstrap JS links-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

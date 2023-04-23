@@ -1,0 +1,14 @@
+section {
+	margin-top: 60px;
+}
+
+.bottom-item {
+	font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+	#text-div {
+		border-radius: 15px;
+		background-color: white;
+	}
+  }

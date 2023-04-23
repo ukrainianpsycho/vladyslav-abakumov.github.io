@@ -1,0 +1,15 @@
+footer {
+	background-color: rgb(73,73,73);
+	border-top: 5px solid rgb(234,234,234);
+  }
+
+  footer a {
+	background-color: rgb(188,175,143);
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+  }
+
+  footer a:hover {
+	color: black;
+  }

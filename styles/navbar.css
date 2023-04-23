@@ -1,0 +1,49 @@
+header nav {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+  }
+
+  #navbar-container {
+	width: 70%;
+	min-width: 576px;
+	max-width: 768px;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+
+  header nav .form-control {
+	border: none;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+  }
+
+  header nav .form-control:focus {
+	background-color: #fff;
+	box-shadow: 0 0 5px #aaa;
+  }
+
+  header .nav-link {
+	background-color: rgb(188,175,143);
+	color: white !important;
+	font-weight: bold;
+	border-radius: 5px;
+  }
+
+  header .nav-link:focus {
+	outline: none;
+	color: black !important;
+  }
+
+  .dropdown-item:active {
+	background-color: rgb(188,175,143);
+  }
+
+  @media screen and (max-width: 576px) {
+	header nav {
+	  width: 100%;
+	  min-width: 0;
+	  border-radius: 0;
+	}
+  }
